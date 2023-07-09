@@ -100,15 +100,72 @@ nav li>a:hover {
     font-weight: 600;
     margin-left: 200px;
 }
-main{
+
+main {
     max-width: 1140px;
+    margin: 30px 200px;
 }
-.about-frame-container{
+
+.about-frame-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 100px;
 }
-.about-frame-image{
+
+.about-frame-image {
     width: 451px;
 
+}
+
+.frame-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    width: 288px;
+    margin-bottom: 24px;
+}
+
+.frame-description {
+    color: #444343;
+    width: 416px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.frame-unorder-list {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 30px;
+}
+
+.my-plans {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.my-plans-title {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.my-plans-description {
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.my-plan-box-icon{
+    text-align: center;
+    margin-bottom: 20px;
 }

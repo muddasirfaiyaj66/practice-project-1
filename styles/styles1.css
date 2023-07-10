@@ -10,6 +10,7 @@
 nav {
     background-color: #181818;
     height: 10vh;
+    
 
 
 
@@ -20,6 +21,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
 
 }
 
@@ -181,7 +183,14 @@ main {
 }
 
 .overlay {
-    position: absolute;
+    position:absolute;
+    /* background-repeat: no-repeat; */
+    /* max-width: 74%; */
+    /* background-size: contain; */
+    
+    
+   
+  
 }
 
 .cover-content {
@@ -295,5 +304,4 @@ main {
     font-size: 20px;
     font-weight: 600;
     padding: 15px 20px;
-    
 }
